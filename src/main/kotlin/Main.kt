@@ -78,6 +78,7 @@ fun knight_vs_wizard():String {
 }
 
 fun knight_vs_robot():String {
+    // 122
     val rob: Robot = Robot()
     val kni: Knight = Knight()
     while ((rob.health > 0) and (kni.health > 0)) {
